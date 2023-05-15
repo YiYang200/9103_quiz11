@@ -23,7 +23,7 @@ function calculateNumParticles() {
   const screenWidth = window.innerWidth;
   const screenHeight = window.innerHeight;
   const screenArea = screenWidth * screenHeight;
-  const baseArea = 1920 * 1080; 
+  const baseArea = 2560 * 1440; 
   // The benchmark screen size for my computer is this parameter and can be modified to others as needed
   const ratio = screenArea / baseArea;
   const adjustedNumParticles = Math.round(numParticlesBase * ratio);
