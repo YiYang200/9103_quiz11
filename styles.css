@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    background-color: #333;
+    padding: 50px;
+    color: rgb(138, 27, 27);
+    text-align: center;
+}
+
+main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.description {
+    max-width: 800px;
+    padding: 15px;
+    text-align: justify;
+}
+
+canvas {
+    flex-grow: 1;
+    width: 100%;
+    background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+}
+
